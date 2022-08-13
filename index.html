@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    
+
+
     <!-- Link del CSS-->
     <link rel="stylesheet" href="css/main.css">
 
@@ -13,48 +14,83 @@
 
 
 </head>
+
 <body>
     <header>
-        <nav class="menu"> 
+        <h1>Camellia</h1>
+        <nav class="menu">
             <ul>
-                <li>Home</li>
-                <li> 
-                    <a href ="About.html" target="_blank">  About </a> 
+                <li class="current-li">Home</li>
+                <li>
+                    <a href="About.html" target="_blank"> About </a>
                 </li>
                 <li>
-                    <a href ="services.html" target="_blank" > Services</a>
+                    <a href="services.html" target="_blank"> Services</a>
                 </li>
                 <li>
-                    <a href= "portfolio.html" target="_blank"> Portfolio</a>
+                    <a href="portfolio.html" target="_blank"> Portfolio</a>
                 </li>
                 <li>
                     <a href="contact.html" target="_blank">Contact us </a>
                 </li>
             </ul>
         </nav>
+
         
-        <h1> CAMELLIA INTERIOR DESIGN </h1>
-        <img class="item-absolute" src="Img/homeicon.png" alt="">
     </header>
 
     <!-- contenido principal-->
 
-    <main>
-    
-        <div class="img-parent">
-            
-            <img width="28%" src="img/plan.jpg" alt="logo de mi proyecto">
+    <main class="main">
+        <div class="main-container">
+            <div class="banner">
+                <img src="https://picsum.photos/300/100" />
+            </div>
+            <div class="about-us-left">
+                <h3 class="about-us-title">About us</h3>
+                <img src="https://picsum.photos/150/150"/>
+            </div>
+            <div class="about-us-right">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut viverra leo. Phasellus tempus neque orci, eget lacinia augue viverra vel.
+                </p>
+                <button>Read more</button>
+            </div>
+            <div class="services">
+                <h3>SERVICES</h3>
+            </div>
+            <div class="service-item">
+                <h4>Corporate</h4>
+                <img src="https://picsum.photos/120/100" />
+            </div>
+            <div class="service-item">
+                <h4>Residential</h4>
+                <img src="https://picsum.photos/120/100" />
+            </div>
+            <div class="service-item">
+                <h4>Commercial</h4>
+                <img src="https://picsum.photos/120/100" />
+            </div>
+            <div class="service-item">
+                <h4>Organization</h4>
+                <img src="https://picsum.photos/120/100"/>
+            </div>
+            <div class="portfolio-left">
+                <h3 class="portfolio-title">Portfolio</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut viverra leo. Phasellus tempus neque orci, eget lacinia augue viverra vel.
+                <button>Read more</button>
+            </div>
+            <div class="portfolio-right">
+                <img src="https://picsum.photos/100/100" />
+            </div>
         </div>
-            
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem impedit cum asperiores incidunt. Veniam, sunt ut quaerat distinctio sed saepe pariatur magni illo voluptatem atque aliquid earum quisquam temporibus quis?
-        </p>
 
-    
+
         <img class="item-fixed" src="Img/callicon.png" alt="">
-        
+
     </main>
 
-    <footer> 
+    <footer class="text-center">
 
         <div class="caja">
             <div class="bold">Find us</div>
@@ -62,10 +98,11 @@
             <div>Vancouver </div>
             <div>Phone: 204.504.4373 </div>
             <div>Email: contactus@camellia.ca </div>
-        </div>    
-        
-     
+        </div>
+
+
         <h3> All right are reserved </h3>
     </footer>
 </body>
+
 </html>
