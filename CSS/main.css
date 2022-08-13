@@ -78,7 +78,22 @@ main {
 
 .banner {
   grid-area: banner;
+  animation-duration: 3s;
+  animation-name: slidein;
 }
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    
+  }
+
+  to {
+    margin-left: 0%;
+    
+  }
+}
+
 
 .about-us-left {
   grid-area: about-us-left;
