@@ -1,0 +1,94 @@
+@font-face { 
+    font-family: "Inter"; 
+    src: url("Inter-VariableFont_slnt,wght.ttf"); 
+} 
+@font-face { 
+    font-family: "Inter-bold"; 
+    src: url("Inter-Bold.ttf"); 
+} 
+
+
+    
+
+
+/*estilos de body*/
+
+body{
+
+
+    background-color: rgb(212, 196, 196);
+    font-family: "Inter", medium; 
+
+}
+
+.menu
+{
+    background-color: rgb(189, 223, 232);
+    text-align: right;
+}
+nav ul li{
+    background-color:rgb(220, 210, 210);
+    margin: 10px;
+    padding: 10px;
+
+    display: inline-block;
+ }
+
+.img-parent{
+    text-align: center;
+}
+
+
+
+ h1{ 
+    text-align: center;
+    color: white;
+    font-size: 60 px;
+    text-decoration: underline;
+}
+
+p{ 
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+.caja{
+    border: 3px solid black;
+    width: 230px;
+    margin-bottom: 64px;
+    padding: 8px;
+  
+    background-image: url(../Img/light-blue.webp);
+    display: inline-block;
+}
+
+.bold{ 
+    font-family: "Inter-Bold";
+}
+
+footer{ 
+    text-align: center;
+}
+
+
+.item-absolute{
+   position:absolute;
+   top:15px;
+   left: 10px;
+   width: 60px;
+
+}
+
+.item-fixed{
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    width: 50px;
+}
+
+main {
+    padding-bottom: 64px;
+    padding-top: 32px;
+}
